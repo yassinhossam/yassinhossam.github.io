@@ -1,0 +1,151 @@
+body {
+    color: #E5E7EB;
+    background: #020617;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    font-style: italic;
+}
+
+span {
+    color: #22C55E;
+}
+
+header {
+    background: #111827;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #22C55E;
+    transition: 0.3s;
+}
+
+.card {
+    background: #111827;
+    text-align: center;
+    width: 40%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #1F2937;
+}
+
+.card1 {
+    margin: 15px;
+}
+
+footer {
+    background: #111827;
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-size: 25px;
+    font-style: italic;
+    
+}
+
+ul {
+    margin: 40px 15px;
+}
+
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+table thead {
+    background: #1F2937;
+    height: 50px;
+}
+
+table tr td {
+    padding: 10px;
+    border: solid 1px #1F2937;
+    text-align: center;
+}
+
+form {
+    margin: 50px auto;
+}
+
+form div {
+    padding: 15px;
+}
+
+div input {
+    background: #020617;
+    width: 50%;
+    color: #E5E7EB;
+    border: 1px solid #1F2937;
+    border-radius: 8px;
+}
+
+div textarea {
+    background: #020617;
+    width: 50%;
+    height: 50px;
+    color: #E5E7EB;
+    border: 1px solid #1F2937;
+    border-radius: 8px;
+}
+
+button {
+    justify-content: center;
+    display: flex;
+    background: #22C55E;
+    margin: 50px auto;
+    height: 40px;
+    width: 15%;
+    border-radius: 15px;
+    transition: 0.3s;
+    align-items: center;
+    color: black;
+    border: none;
+}
+
+button:hover {
+    background: #4ADE80;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    div input,
+    div textarea {
+        width: 90%;
+    }
+
+    button {
+        width: 50%;
+    }
+}
